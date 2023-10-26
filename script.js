@@ -3,7 +3,7 @@ document.getElementById("accept").addEventListener("click", function() {
 });
 
 document.getElementById("decline").addEventListener("click", function() {
-  sendEmail("mailto:your-email@example.com?subject=Response%20to%20Date%20Request&body=I'm%20sorry%2C%20I%20can't.");
+  sendEmail("mailto:satyam.harivansh@gmail.com?subject=Response%20to%20Date%20Request&body=I'm%20sorry%2C%20I%20can't.");
 });
 
 function sendEmail(mailtoLink) {
